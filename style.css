@@ -1,0 +1,410 @@
+.header-design{
+    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}   
+   
+.img-design{
+    height: 70px;
+    width: 120px;
+    margin-top:0px;
+}
+
+   #banner-image{
+    max-width: 100%;
+    max-height:100% ;
+   margin:0px ;
+   padding:0px ;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+}
+.nav-name{
+    padding-left: 50px;
+    margin-left:10px ;
+   
+}
+
+/* input design section */
+
+.input-design{
+    width: auto;
+    padding:0px 0px;
+
+}
+
+.icon-design{
+    background-color: black;
+    color: aliceblue;
+    margin-left:0px ;
+    padding-left:0px;
+    font-size: 25px;
+    padding: 2px;
+}
+.icon{
+    font-size: 20px;
+    padding-top: 5px;
+   margin-left: 15px;
+   margin-right: 15px;
+   color: rgb(133, 130, 130);
+}
+.icon-number{
+    font-size: 10px;
+    color: rgb(133, 130, 130);
+   
+}
+
+/* for input border style */
+.form-control{
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+  }
+
+/* 3rd section */
+.list-design1{      
+    margin-left: 65px;
+    font-size:smaller;
+    padding-right:25px ;
+    
+
+}
+.list-design{
+    margin-left: 5px;
+    padding-right:15px;
+    font-size:smaller;
+}
+.pagination{
+    
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+
+}
+
+
+/* 4th section */
+
+.design-grid{
+    width: 1200px;
+    margin-left: 20px;
+    background-color: rgb(209, 217, 215);
+    height: 50px;
+    
+}
+.grid-design{
+    font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0px;
+font-weight: bolder;
+padding: 5px;
+
+
+
+}
+
+.bordergrid-design{
+    height: 50px;
+    border-right:0 ;
+    font-size: smaller;
+    font-weight: bolder;
+    margin: 0;
+max-height:35px ;
+padding-top: 0px;
+
+
+}
+.border-design{
+    font-size: x-small;
+}
+
+.size-set{
+    font-size: x-small;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 1px;
+    
+}
+.design-icon{
+    font-size: xx-small;
+    background-color: rgb(255, 145, 0);
+    padding: 3px;
+    margin-left: 0px;
+    padding-top: 1px;
+    color: rgb(228, 228, 227);
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+   
+/* slider section */
+.slider-size{
+     width:1320px;
+     height: 350px;
+     margin-left:41px ;
+     margin-bottom: 20px;
+     
+}
+
+/* 6th section design */
+
+.offer-size{
+    
+     font-weight: bolder;
+     
+}
+.button-design{
+    
+     margin-top: 5px;
+     background-color: rgb(233, 85, 85);
+     border-color:  rgb(245, 96, 96);
+     color: aliceblue;
+     padding: 15px 35px 15px 35px;
+     font-weight: 400;
+
+}
+.capped{
+    font-size: 12px;
+    font-weight: 400;
+}
+/* 7th section */
+
+.img-size{
+    width: 234px;
+    height: 258px;
+}
+.img-size2{
+    width:134px;
+    height:158px;
+    z-index: 20;
+}
+.box{
+    width:300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.sale{
+    position: relative;
+    margin-top: -28px;
+    z-index: 30;
+    top: 0px;
+    width:100px ;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    color: aliceblue;
+}
+.bag{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+
+/* 8th section */
+
+.banner-size{
+    width:1320px;
+    height: 350px;
+    margin-left:41px ;
+    margin-bottom: 20px;
+}
+
+
+/* 9th section */
+
+.flash-sale{
+
+    width:1320px;
+    height: 70px;
+    margin-left:41px ;
+    margin-bottom: 20px;
+}
+.flash{
+    font-style:inherit;
+}
+.end-in{
+    padding-right: 8px ;
+    font-size: 30px;
+    padding-top: 8px;
+    font-style:inherit;
+}
+.time{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    
+}
+
+/* 10th section */
+
+
+.uper-img{
+    z-index: 30;
+}
+.uper-div{
+    background-color:orangered;
+    width:60px;
+    z-index: 70;
+    margin-top: -250px;
+    top: 0px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.line{
+margin-left: 0px;
+    padding-left: 0px;
+    z-index:900;
+    position: relative;
+   
+}
+.sale-price{
+    font-size: 20px;
+    display: inline;
+    color: brown;
+    font-weight: 700;
+}
+.hori{
+    width: 55px;
+    z-index: 30;
+    position: relative;
+    margin-left: -50px;
+}
+.price{
+    z-index: 20;
+    color: rgb(183, 186, 189);
+    margin-top: 6px;
+}
+
+
+/* 11th section */
+
+
+/* upper slider link */
+.uper-slider{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 41px;
+    
+}
+.link1{
+    margin-left: 450px;
+    margin-right: 50px;
+    color: rgb(208, 136, 136);
+    font-weight: 800;
+    font-size: 20px;
+}
+.link2{
+    margin-left: 50px;
+    margin-right: 80px;
+    color: rgb(208, 136, 136);
+    font-weight: 800;
+    font-size: 20px;
+}
+.link3{
+    color: rgb(208, 136, 136);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- */
+.card-slider{
+    margin-top:10px ;
+    margin-left:41px ;
+}
+.btn-dsn{
+    padding: 5px;
+}
+
+/* card */
+/* .number-1{
+    display: block;
+} */
+
+.number-2 img{
+    width: 100%;
+}
+.number-2{
+   
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.photo-2{
+    display:none;
+    position: absolute; 
+     top: 0;
+    
+}
+.number-2:hover .photo-2{
+    display:block ;
+    width: 220px;
+   
+    
+}
+/* .ig{
+    width: 220px;
+} */
+.card-dgn{
+    font-weight: 700;
+    color: brown;
+}
+
+/* 12th section */
+.content{
+    position: absolute;
+    transform: translate(50%,50%);
+}
+
+
+
+/* 13th section */
+
+.box1{
+
+}
+/* card  */
+.image{
+position: relative;
+}
+
+.image img{
+    display: block;
+}
+
+.content{
+    position:absolute;
+    top: 0;
+    display: none;
+    
+    color: black;
+    font-weight: 700;
+
+
+}
+.image:hover .content{
+    display: block;
+    margin-left: 20px;
+
+margin-top: 150px;
+    justify-content: left;
+
+}
+
+
+
+
+
+/* modaldesign */
