@@ -18,18 +18,25 @@
    margin-bottom: 0px;
    padding-bottom: 0px;
 }
+.headline{
+    position:relative;
+}
 .nav-name{
     padding-left: 50px;
     margin-left:10px ;
    
 }
 
-/* input design section */
+/*----------- input design section -------------*/
 
 .input-design{
     width: auto;
     padding:0px 0px;
 
+}
+.change{
+    background-color: black;
+    
 }
 
 .icon-design{
@@ -38,7 +45,7 @@
     margin-left:0px ;
     padding-left:0px;
     font-size: 25px;
-    padding: 2px;
+    padding: 5px;
 }
 .icon{
     font-size: 20px;
@@ -53,14 +60,15 @@
    
 }
 
-/* for input border style */
+/* ---------------for input border style --------*/
 .form-control{
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
   }
 
-/* 3rd section */
+/* 3rd section----------- */
+/* -------------------------------------------item list----------------------------------------- */
 .list-design1{      
     margin-left: 65px;
     font-size:smaller;
@@ -79,15 +87,38 @@
    padding-bottom: 0px;
 
 }
+/* ----------------extra hover design--------------*/
+.hover-design{
+    position: relative;
+}
+.extra{
+    display:none;
+    position: absolute;
+    top:0;
+    background-color: white;
+    z-index: 90;
+    
+    
+    
+
+}
+.hover-design:hover .extra{
+    display: block;
+    width: 1320px;
+    top:1;
+
+} 
 
 
 /* 4th section */
+/*--------------------1st slider uper grid----------------------- */
 
 .design-grid{
-    width: 1200px;
-    margin-left: 20px;
+    
+    width:9% ;
     background-color: rgb(209, 217, 215);
     height: 50px;
+    padding: 8px;
     
 }
 .grid-design{
@@ -96,7 +127,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 margin-bottom: 0px;
 font-weight: bolder;
-padding: 5px;
+
 
 
 
@@ -135,16 +166,17 @@ padding-top: 0px;
     margin-bottom: 2px;
 }
    
-/* slider section */
+/* -------------------------------------------------slider section---------------------------------- */
 .slider-size{
-     width:1320px;
+    
      height: 350px;
-     margin-left:41px ;
+    z-index: 70;
      margin-bottom: 20px;
      
 }
 
 /* 6th section design */
+/*---------------------- below slider ---------offer section grid ------------------*/
 
 .offer-size{
     
@@ -166,6 +198,7 @@ padding-top: 0px;
     font-weight: 400;
 }
 /* 7th section */
+/* -------------sale img section ----------------*/
 
 .img-size{
     width: 234px;
@@ -201,23 +234,26 @@ padding-top: 0px;
 
 
 /* 8th section */
+/* ------------------banner image----------------- */
 
 .banner-size{
     width:1320px;
     height: 350px;
-    margin-left:41px ;
+    
     margin-bottom: 20px;
 }
 
 
 /* 9th section */
+/* -----------------flash sale timer------------------------ */
 
 .flash-sale{
 
-    width:1320px;
-    height: 70px;
+   
+   
     margin-left:41px ;
     margin-bottom: 20px;
+
 }
 .flash{
     font-style:inherit;
@@ -232,10 +268,12 @@ padding-top: 0px;
     background-color: black;
     color: aliceblue;
     height: 50px;
+    padding:8px ;
     
 }
 
 /* 10th section */
+ /* -------------------orange flash img card section ------------------------ */
 
 
 .uper-img{
@@ -279,24 +317,20 @@ margin-left: 0px;
 /* 11th section */
 
 
-/* upper slider link */
+/* -------------------------upper slider link grid ---------------------------*/
 .uper-slider{
     margin-top: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-left: 41px;
+   
     
 }
 .link1{
-    margin-left: 450px;
-    margin-right: 50px;
+    
     color: rgb(208, 136, 136);
     font-weight: 800;
     font-size: 20px;
 }
 .link2{
-    margin-left: 50px;
-    margin-right: 80px;
+    
     color: rgb(208, 136, 136);
     font-weight: 800;
     font-size: 20px;
@@ -360,7 +394,9 @@ margin-left: 0px;
 .card-dgn{
     font-weight: 700;
     color: brown;
+    margin-left: -160px;
 }
+ 
 
 /* 12th section */
 .content{
@@ -373,13 +409,22 @@ margin-left: 0px;
 /* 13th section */
 
 .box1{
+    margin-top: 30px;
+    margin-left: 41px;
+    width: 1320px;
+    background-color: rgb(246, 244, 242);
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 /* card  */
 .image{
 position: relative;
-}
 
+}
+.recomend{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 .image img{
     display: block;
 }
@@ -396,15 +441,182 @@ position: relative;
 }
 .image:hover .content{
     display: block;
-    margin-left: 20px;
+    margin-left: 20px;  
 
-margin-top: 150px;
+     margin-top: 150px;
     justify-content: left;
+
+}
+.taka{
+    font-size: 18px;
+    color: rgb(119, 55, 55);
+    
+}
+.offer-taka{
+    font-size:15px ;
+    padding-left: 2px;
+    padding-right: 2px;
+     margin-top: -50px;
+     border-radius: 2px;
+     color: chocolate;
+     
+    
 
 }
 
 
 
 
+/* 14 section style gellery */
+.style-gellery{
+    
+    background-color: rgb(246, 244, 242);
+    
+    margin-top: 25px;
 
-/* modaldesign */
+
+}
+.style{
+   
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding-top: 20px;
+}
+.gellery{
+    color:rgba(233, 91, 66, 0.295) ;
+   
+}
+.card-text2{
+    margin-left: -40px;
+    background-color: aliceblue;
+    color: black;
+    padding:15px;
+    text-decoration: none;
+}
+/* 15th section button style */
+ 
+.button-style{
+   
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.style-btn{
+   
+}
+.style-btn button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    border-style: none;
+   
+    
+}
+.btnn1{
+    background-color:rgb(217, 211, 191) ;
+    border-color:rgb(217, 211, 191) ;
+    border-style: none;
+    margin-right: 5px;
+    
+    
+}
+.btnn2{
+background-color: rgb(209, 186, 186);
+border-color:rgb(228, 200, 200) ;
+border-style: none;
+margin-right: 5px;
+}
+.btnn3{
+background-color: rgb(111, 68, 68);
+border-style: none;
+margin-right: 5px;
+}
+.btnn4{
+background-color:rgb(120, 134, 120) ;
+border-color:rgb(120, 134, 120) ;
+margin-right: 5px;
+}
+.btnn5{
+background-color: rgb(175, 144, 175);
+border-color:rgb(175, 144, 175) ;
+
+margin-right: 5px;
+}
+.btnn6{
+background-color:rgb(232, 192, 199) ;
+border-color:rgb(232, 192, 199) ;
+margin-right: 5px;
+}
+.btnn7{
+background-color:rgb(189, 141, 141) ;
+margin-right: 5px;
+}
+
+
+/* footer */
+
+
+
+.container2{
+    
+    background-color: azure;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    
+    
+}
+.container-dsg{
+    margin-top: 20px;
+   
+}
+.footer-uper{
+ 
+
+}
+
+.footer-uper  div{
+   
+   
+}
+.footer-second{
+    /* margin-top:20px;
+    margin-left: 158px; */
+}
+.icon-set{
+   
+    margin-right: 33px;
+    margin-bottom: 30px;
+}
+.icon-set2{
+    
+}
+.icon-set a{
+    color: black;
+}
+.icon-set2 a{
+    color: black;
+}
+.input-box{
+    
+   
+
+}
+.input-box2{
+   
+
+}
+.submit-design{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+}
+.second-div{
+    margin-right: 100px;
+}
+.first-er2nd{
+  margin-top: 20px;
+}
+
+
+
+/* for media query */
+
+

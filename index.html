@@ -29,45 +29,48 @@
 </head>
 
 <body onload="showTime()">
-  <header class="header-design shadow-sm ">
+  <header class="header-design shadow-sm  ">
     <!-- navigation 1st part -->
     <img id="banner-image" src="images/shein head img 1.jpg" alt="">
     <!-- navbar 2nd part -->
-    <div>
-      <nav class="navbar mt-0 pt-0 ">
+    <div class="headline" >
+      <nav class="navbar mt-0 pt-0  ">
         <div class="container-fluid container  ">
-          <img class="img-design" src="images/shein-name.png" alt="">
-          <form class="d-flex ">
+          <img class="img-design img-fluid" src="images/shein-name.png" alt="">
+          <form class="d-md-flex  ">
             <div class="dropdown  ">
 
-              <input type="button dropdown-toggle" value="" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-magnifying-glass size-design icon-design "></i>
-              <ul class="dropdown-menu container">
-                <h3 class="p-2"> Search Discovery</h3>
-                <div class="row">
-                  <li class="col "><a class="dropdown-item" href="#">Dress</a></li>
-                  <li class="col "><a class="dropdown-item" href="#">Sweater</a></li>
-                </div>
-                <div class="row">
-                  <li class="col "><a class="dropdown-item" href="#">Jeans</a></li>
-                  <li class="col "><a class="dropdown-item" href="#">Dress</a></li>
-                  <li class="col "><a class="dropdown-item" href="#">Sweater</a></li>
-
-
-
-                </div>
-
-
-              </ul>
-
+              <div class="input-group mb-3">
+                <input type="button dropdown-toggle"data-bs-toggle="dropdown" aria-expanded="false"  placeholder="Recipient's username" aria-label="Recipient's username" >
+                <span class=" change" id="basic-addon2"><i class="fa-solid fa-magnifying-glass size-design icon-design "></i></span>
+                <ul class="dropdown-menu container">
+                  <h3 class="p-2"> Search Discovery</h3>
+                  <div class="row">
+                    <li class="col "><a class="dropdown-item" href="#">Dress</a></li>
+                    <li class="col "><a class="dropdown-item" href="#">Sweater</a></li>
+                  </div>
+                  <div class="row">
+                    <li class="col "><a class="dropdown-item" href="#">Jeans</a></li>
+                    <li class="col "><a class="dropdown-item" href="#">Dress</a></li>
+                    <li class="col "><a class="dropdown-item" href="#">Sweater</a></li>
+                  </div>
+                </ul>
+              </div>
+              
             </div>
-
-
-            <i class="fa-solid fa-user ml-0 icon"></i>
+            <div >
+              <i class="fa-solid fa-user ml-0 icon"></i>
             <i class="fa-solid fa-cart-shopping icon"><span class=" icon-number fw-bold">0</span></i>
             <i class="fa-regular fa-heart icon"><span class="icon-number fw-semibold">0</span></i>
             <i class="fa-solid fa-headphones icon"></i>
             <i class="fa-solid fa-globe icon"></i>
+
+            </div>
+            <!-- <i class="fa-solid fa-user ml-0 icon"></i>
+            <i class="fa-solid fa-cart-shopping icon"><span class=" icon-number fw-bold">0</span></i>
+            <i class="fa-regular fa-heart icon"><span class="icon-number fw-semibold">0</span></i>
+            <i class="fa-solid fa-headphones icon"></i>
+            <i class="fa-solid fa-globe icon"></i> -->
           </form>
         </div>
       </nav>
@@ -76,31 +79,119 @@
 
       <!-- 3rd part item list  -->
 
-      <div>
-        <ul class="pagination fs-6  ">
+      <div >
+        <nav class="navbar navbar-expand-lg bg-transprant">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              
+              <ul class="pagination fs-6 oneby ">
+                <li class="list-design1  hover-design">Catagories
+                <!-- extra -->
 
 
 
-          <li class="list-design1 "><a id="hover-design" href="sale.html"></a>Catagories</li>
-          <li class="list-design"><a href="sale.html"></a>Sale </li>
-          <li class="list-design"><a href=""></a>Women Clothing</li>
-          <li class="list-design"><a href=""></a>Curve</li>
-          <li class="list-design"><a href="kids.html"></a>Kids</li>
-          <li class="list-design"><a href=""></a>Men Fashion</li>
-          <li class="list-design"><a href=""></a>Women Lingerie & Sleep</li>
-          <li class="list-design"><a href=""></a>Women Jewelry & Accessories </li>
-          <li class="list-design"><a href=""></a> Women Shoes</li>
-          <li class="list-design"><a href=""></a>Home & Kitchen</li>
-          <li class="list-design"><a href=""></a>Women Jewelry & Accessories </li>
-          <li><a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a></li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
+                <div class="container text-center .col-lg-4 .col-sm-6 mb-4 extra">
+                  <div class="row">
+                    <div class="col ">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col ">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes </p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+              
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class="bag">Bags & Shoes</p>
+                    </div>
+                    <div class="col">
+                      <a href=""> <img class="img-size2  " src="images/bag (1).png" alt="" sizes="" srcset=""></a>
+                      <h5 class="bg-danger sale ">SALE</h5>
+                      <p class=" bag">Bags & Shoes</p>
+                    </div>
+              
+                  </div>
+                </div>
+                
+
+
+
+                <!-- end -->
+                </li>
+                <li class="list-design"><a href="sale.html"></a>Sale </li>
+                <li class="list-design"><a href=""></a>Women Clothing</li>
+                <li class="list-design"><a href=""></a>Curve</li>
+                <li class="list-design"><a href="kids.html"></a>Kids</li>
+                <li class="list-design"><a href=""></a>Men Fashion</li>
+                <li class="list-design"><a href=""></a>Women Lingerie & Sleep</li>
+                <li class="list-design"><a href=""></a>Women Jewelry & Accessories </li>
+                <li class="list-design"><a href=""></a> Women Shoes</li>
+                <li class="list-design"><a href=""></a>Home & Kitchen</li>
+                <li class="list-design"><a href=""></a>Women Jewelry & Accessories </li>
+                <li><a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul> 
+             
+              
+            </div>
+          </div>
+        </nav>
+       
       </div>
     </div>
 
@@ -111,7 +202,7 @@
 
   <!----------- main section start --------------->
   <!-- slider uper grid -->
-  <div class="container text-center  design-grid">
+  <div class="container text-center  design-grid ">
 
     <div class="row  border-danger">
       <div class="col  bordergrid-design border-end border-dark ">
@@ -129,14 +220,14 @@
   </div>
 
   <!-- slider section -->
-  <div class=" slider-size">
+  <div class=" slider-size container">
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/slider img4.jfif" class="d-block w-100" alt="..." height="350px">
+          <img src="images/bg1.jpg" class="d-block w-100  " alt="..." height="350px">
         </div>
         <div class="carousel-item">
-          <img src="images/slider img3.jpg" class="d-block w-100" alt="..." height="350px">
+          <img src="images/slider img3.jpg" class="d-block w-100 " alt="..." height="350px">
         </div>
 
       </div>
@@ -153,6 +244,7 @@
   </div>
 
   <!-- 6th section -->
+  <!-- /*---------------------- below slider ---------offer section grid ------------------*/ -->
   <div class="container text-center">
 
     <div class="row ">
@@ -179,6 +271,7 @@
 
 
   <!-- 7th section -->
+  <!-- /* -------------sale img section ----------------*/ -->
 
 
 
@@ -253,15 +346,17 @@
 
 
   <!-- 8th section  -->
+  <!------------------ banner img section ---------------->
 
 
-  <section>
-    <img class="banner-size" src="images/shein 8t.webp" alt="" srcset="">
+  <section class="container">
+    <img class="banner-size img-fluid" src="images/shein 8t.webp" alt="" srcset="">
   </section>
 
   <!-- 9th section -->
+  <!------------------------- flash sale timer section ----------------------------->
 
-  <div class="d-flex justify-content-between flash-sale">
+  <div class="d-flex justify-content-between flash-sale container">
     <h1 class="flash">FLASH SALE</h1>
     <div class="d-flex">
       <h1 class="end-in">END IN </h1>
@@ -271,6 +366,7 @@
   </div>
 
   <!-- 10th section -->
+  <!-- -------------------orange flash img card section -------------------------->
 
 
 
@@ -279,7 +375,7 @@
   <div class="container text-center ">
     <div class="row ">
       <div class="col  ">
-        <img src="images/baby genji.webp" class="card-img-top uper-img" height="250px" alt="...">
+        <img src="images/baby genji.webp" class="card-img-top uper-img " height="250px" alt="...">
         <div class="uper-div">
           <i class="fa-solid fa-bolt-lightning"></i>
           <h1 class="fs-5">-42%</h1>
@@ -292,7 +388,7 @@
         </div>
       </div>
       <div class="col ">
-        <img src="images/shoes.webp" class="card-img-top uper-img" height="250px" alt="...">
+        <img src="images/shoes.webp" class="card-img-top uper-img " height="250px" alt="...">
         <div class="uper-div">
           <i class="fa-solid fa-bolt-lightning"></i>
           <h1 class="fs-5">-42%</h1>
@@ -305,7 +401,7 @@
         </div>
       </div>
       <div class="col ">
-        <img src="images/quter pant.jpg" class="card-img-top uper-img" height="250px" alt="...">
+        <img src="images/quter pant.jpg" class="card-img-top uper-img " height="250px" alt="...">
         <div class="uper-div">
           <i class="fa-solid fa-bolt-lightning"></i>
           <h1 class="fs-5">-42%</h1>
@@ -318,7 +414,7 @@
         </div>
       </div>
       <div class="col">
-        <img src="images/lady.jpg" class="card-img-top uper-img" height="250px" alt="...">
+        <img src="images/lady.jpg" class="card-img-top uper-img " height="250px" alt="...">
         <div class="uper-div">
           <i class="fa-solid fa-bolt-lightning"></i>
           <h1 class="fs-5">-42%</h1>
@@ -331,8 +427,6 @@
         </div>
       </div>
       <div class="col">
-
-        <div class="" style="width: 16rem;">
 
           <img src="images/dress2.webp" class="card-img-top uper-img" height="250px" alt="...">
           <div class="uper-div">
@@ -348,6 +442,19 @@
 
 
         </div>
+        <div class="col ">
+          <img src="images/quter pant.jpg" class="card-img-top uper-img " height="250px" alt="...">
+          <div class="uper-div">
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <h1 class="fs-5">-42%</h1>
+          </div>
+          <div class="line d-flex">
+            <h1 class=" sale-price">$3.45 </h1>
+  
+            <h6 class=" price">$3.89</h6>
+            <hr class=" hori">
+          </div>
+        </div>
 
       </div>
 
@@ -356,10 +463,10 @@
 
 
   <!-- 11th section -->
+<!-- 2nd slider navigation -->
 
-
-  <section class="uper-slider">
-    <div class="d-flex ">
+  <section class="uper-slider container">
+    <div class="d-flex justify-content-evenly ">
       <a class="link1"> UP TO 90% OFF</a>
       <a class="link2" href="">HoliDay Shop</a>
       <a class="link3" href="">All Under 1$</a>
@@ -367,8 +474,8 @@
 
   </section>
 
-
-  <section class="card-slider">
+<!-- 2nd slider start -->
+  <section class="card-slider container">
     <div id="carouselExampleIndicators" class="carousel slide">
 
       <div class="carousel-inner">
@@ -615,7 +722,7 @@
                     <a href=""> <img src="images/images.jfif" class="card-img-top" width="450px" height="250px"
                         alt=""></a>
                   </div>
-                  <div class="card-body">
+                  <div class="card-body ">
                     <p class="card-text card-dgn">$40.8</p>
                   </div>
                 </div>
@@ -647,7 +754,7 @@
   <!-- 12th section -->
 
 
-  <div class="container text-center">
+  <!-- <div class="container text-center">
     <div class="row">
       <div class="col">
         <div class="card section-top" style="width: 18rem;">
@@ -676,53 +783,70 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 
 
   <!-- 13th Section -->
+  <!-------------------- recommended  section ------------------------>
   <div class="container text-center box1">
+     <div>
+       <h1 class="recomend">Recommended</h1>
+     </div>
     <div class="row">
       <div class="col ">
-        <div class="card image" style="width: 18rem;">
+        <div class=" image" style="width: 18rem;">
           <a href=""><img src="images/d2.jpg" class="card-img-top" height="250px" alt="..."></a>
-          <div class="card-body content">
+          <div class="card-body ">
             <!-- <button class="card-text">ADD TO CART</button> -->
-            <button type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <button class="content" type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal1">
               ADD TO CART
             </button>
+            <h5 class="taka">
+        $4.67 <span class="offer-taka border border-danger">3%</span>
+            </h5>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card image" style="width: 18rem;">
+        <div class="image" style="width: 18rem;">
           <a href=""><img src="images/winter8.webp" class="card-img-top" height="250px" alt="..."></a>
-          <div class="card-body content">
+          <div class="card-body ">
 
-            <button type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <button class="content"  type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal2">
               ADD TO CART
             </button>
+            <h5 class="taka">
+              $14.27 <span class="offer-taka border border-danger">33%</span>
+                  </h5>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card image" style="width: 18rem;">
+        <div class=" image" style="width: 18rem;">
           <a href=""><img src="images/winter7.jpg" class="card-img-top" height="250px" alt="..."></a>
-          <div class="card-body content">
+          <div class="card-body ">
 
-            <button type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            <button class="content" type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal4">
               ADD TO CART
             </button>
+            <h5 class="taka">
+              $14.67 <span class="offer-taka border border-danger">43%</span>
+                  </h5>
+
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card image" style="width: 18rem;">
+        <div class=" image" style="width: 18rem;">
           <a href=""><img src="images/d3.jpg" class="card-img-top" height="250px" alt="..."></a>
-          <div class="card-body content">
+          <div class="card-body ">
 
-            <button type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <button class="content" type="button" class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal1">
               ADD TO CART
             </button>
+            <h5 class="taka">
+              $3.67 <span class="offer-taka border border-danger">13%</span>
+                  </h5>
           </div>
         </div>
       </div>
@@ -889,9 +1013,179 @@
 
 
 
+<!-- 14 section style gellery -->
+<!-- style gellery -->
+
+ <section class="style-gellery ">
+   <center>
+    <h1 class=" style">STYLE <span class="gellery">GELLERY</span></h1>
+   </center>
+   
+   <div class="container text-center box1">
+    
+   <div class="row">
+     <div class="col-md-3  ">
+       <div class="card image" style="width: 14rem;">
+         <a href=""><img src="images/model6.jpg" class="card-img-top " height="250px" alt="..."></a>
+         <div class="card-body content">
+           <!-- <button class="card-text">ADD TO CART</button> -->
+           <a href="" class="card-text2">ADD TO CART</a>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-3 ">
+       <div class="card image" style="width: 14rem;">
+         <a href=""><img src="images/model7.webp" class="card-img-top " height="250px" alt="..."></a>
+         <div class="card-body content">
+
+          <a href="" class="card-text2">ADD TO CART</a>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-3 ">
+       <div class="card image" style="width: 14rem;">
+         <a href=""><img src="images/model3.webp" class="card-img-top  " height="250px" alt="..."></a>
+         <div class="card-body content">
+
+          <a href="" class="card-text2">ADD TO CART</a>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-3 ">
+       <div class="card image" style="width: 14rem;">
+         <a href=""><img src="images/model4.jpg" class="card-img-top  " height="250px" alt="..."></a>
+         <div class="card-body content">
+
+           <a href="" class="card-text2">ADD TO CART</a>
+         </div>
+       </div>
+     </div>
+    
+   </div>
+
+ </div>
+  
+ </section>
 
 
+ <!-- 15 section for colourful button -->
+ 
+ <section class="button-style d-flex container justify-content-center align-items-center ">
+  <div class="style-btn d-md-flex ">
+    <button type="button" class="  btnn1">Primary</button>
+    <button type="button" class="  btnn2">Secondary</button>
+    <button type="button" class="btnn3">Success</button>
+    <button type="button" class=" btnn4">Danger</button>
+    <button type="button" class=" btnn5">Warning</button>
+    <button type="button" class="btnn6">Info</button>
+    <button type="button" class="btnn7">Dark</button>
+    
+  </div>
+  
 
+ </section>
+
+<!-- footer -->
+
+ <footer class="container2 d-md-flex justify-content-between align-items-center ">
+  <div class="container-dsg">
+    <div class="d-flex footer-uper justify-content-evenly align-items-center" >
+      <div>
+       <h6>COMPANY INFO</h6>
+       <h6>About SHEIN</h6>
+       <h6>Fashion Blogger</h6>
+       <h6>social responsibility</h6>
+       <h6>careers</h6>
+       <h6>affiliate</h6>
+    
+
+      </div>
+       
+  <div>
+   <h6> shopping info</h6>
+   <h6>returns</h6>
+   <h6> refund</h6>
+   <h6>how to order</h6>
+   <h6>how to track</h6>
+  </div>
+  <div>
+   <h6>Contruct us </h6>
+   <h6>payment method</h6>
+   <h6>Bonus Method</h6>
+   <h6>Bonous point</h6>
+   <h6>kalrna</h6>
+   <h6>affilitate</h6>
+   <h6>SHEIN VIP </h6>
+ </div>
+     
+
+     </div>
+    
+   
+ <!-- 1st psrt er 2nd portion -->
+   <div class="first-er2nd">
+    <h6> &copy; 2009-2023 SHEIN All Rights Reserved </h6>
+      <a href="">Privacy Center</a>
+      <a href=""> Privacy&cookie policy</a>
+      <a href="">Manage cookies</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">IP Notice</a>
+   </div>
+
+  </div>
+   
+   <!-- 2nd part -->
+   <div class="second-div">
+    <div class="d-flex footer-second just ">
+      <div class="  icon-set">
+        <h6>Find US ON</i>
+          </h6>
+          <div>
+           <a href=""><i class="fa-brands fa-facebook-f"></i></a> 
+           <a href=""><i class="fa-brands fa-instagram"></i></a> 
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-pinterest-p"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          </div>
+      </div>
+      
+<div class="icon-set2 ">
+  <h6>APP</h6>
+  <div>
+    <a  href=""><i class="fa-brands fa-apple"></i></a>
+    <a href=""><i class="fa-brands fa-android"></i></a>
+  </div>
+</div>
+      
+
+    </div>
+    
+    <div class="input-group mb-3 input-box">
+      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <span class=" submit-design" id="basic-addon2">Submit</span>
+    </div>
+
+    <div class="input-group mb-3 input-box2">
+      <button type="button" class="btn btn-outline-secondary">018</button>
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">017</a></li>
+        <li><a class="dropdown-item" href="#">016</a></li>
+        <li><a class="dropdown-item" href="#">015</a></li>
+        
+        
+      </ul>
+      <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+    </div>
+    
+    
+
+   </div>
+ </footer>
 
 
 
